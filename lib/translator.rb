@@ -8,7 +8,7 @@ def load_library(library)
   puts k
 
  #  "☜(⌒▽⌒)☞" => "angel",
-    emoticon_lib[get_meaning][:v[0] 
+    # emoticon_lib[get_meaning][:v[0] 
   }
   
   pp emoticon_lib
