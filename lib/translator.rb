@@ -13,15 +13,13 @@ end
 
 def get_japanese_emoticon(library, emoticon)
   result = load_library(library)[:get_emoticon][emoticon]
-  if result
-    result
-  else
-    "Sorry, that emoticon was not found"
-  end
+  result ? result : "Sorry, that emoticon was not found"
+  result
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(library, emoticon)
+  result = load_library(library)[:get_meaning][emoticon]
+  
 end
 
 # k - word
