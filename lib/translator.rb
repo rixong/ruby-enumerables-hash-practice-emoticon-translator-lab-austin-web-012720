@@ -9,7 +9,7 @@ def load_library(library)
     emoticon_lib[:get_emoticon][v[0]] = v[1]
   }
   
-  # pp emoticon_lib
+  return emoticon_lib
 end
 
 def get_japanese_emoticon
