@@ -12,7 +12,12 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
-  load_library(library)[:get_emoticon][emoticon]
+  result = load_library(library)[:get_emoticon][emoticon]
+  if result
+    result
+  else
+    "Sorry"
+  end
 end
 
 def get_english_meaning
