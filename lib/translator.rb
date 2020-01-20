@@ -8,7 +8,6 @@ def load_library(library)
     emoticon_lib[:get_meaning][v[1]] = k
     emoticon_lib[:get_emoticon][v[0]] = v[1]
   }
-  
   return emoticon_lib
 end
 
