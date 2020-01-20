@@ -6,7 +6,7 @@ def load_library(library)
   emoticon_lib = {}
   db = YAML.load_file(library).each_pair { | k,v |
   puts k
-    # emoticon_lib[k] => {}
+    emoticon_lib[k] => {}
   }
   
   pp emoticon_lib
