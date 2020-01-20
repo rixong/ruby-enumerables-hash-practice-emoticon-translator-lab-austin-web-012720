@@ -16,7 +16,7 @@ def get_japanese_emoticon(library, emoticon)
   if result
     result
   else
-    "Sorry"
+    "Sorry, that emoticon was not found"
   end
 end
 
