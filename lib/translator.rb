@@ -8,7 +8,7 @@ def load_library(library)
     emoticon_lib[key] => [get_meaning:v[0], get_emoticon:v[1]]
   }
   
-  pp emoticon_db
+  pp emoticon_lib
 end
 
 def get_japanese_emoticon
