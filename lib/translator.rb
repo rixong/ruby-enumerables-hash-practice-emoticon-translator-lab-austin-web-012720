@@ -3,7 +3,7 @@ require "yaml"
 
 
 def load_library(library)
-  emoticon_lib = {}
+  emoticon_lib = {{get_meaning:{}, get_emoticon:{}}}
   db = YAML.load_file(library).each_pair { | k,v |
   puts k
     emoticon_lib = {get_meaning:v[0], get_emoticon:v[1]}
