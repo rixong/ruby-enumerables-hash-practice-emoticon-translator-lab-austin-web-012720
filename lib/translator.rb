@@ -18,7 +18,7 @@ end
 
 def get_english_meaning(library, emoticon)
   result = load_library(library)[:get_meaning][emoticon]
-  
+  result ? result : result = "Sorry, that emoticon was not found"
 end
 
 # k - word
