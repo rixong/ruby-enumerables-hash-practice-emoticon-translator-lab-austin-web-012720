@@ -20,7 +20,8 @@ def get_english_meaning
   # code goes here
 end
 
-# k - 
+# k - word
+# v - [usemot, jap]
 
 # get_meaning - jap => word
 # get_emoticon - usemot => jap
