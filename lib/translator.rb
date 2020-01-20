@@ -6,8 +6,6 @@ def load_library(library)
   emoticon_lib = {{get_meaning:{}, get_emoticon:{}}}
   db = YAML.load_file(library).each_pair { | k,v |
   puts k
-
- #  "☜(⌒▽⌒)☞" => "angel"
   }
   
   pp emoticon_lib
@@ -21,6 +19,7 @@ def get_english_meaning
   # code goes here
 end
 
+# k - 
 
 # get_meaning - jap => word
-# get_emoticon - 
+# get_emoticon - usemot => jap
