@@ -22,4 +22,5 @@ def get_english_meaning
 end
 
 
-# get_meaning => 
+# get_meaning - jap => word
+# get_emoticon - 
